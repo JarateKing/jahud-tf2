@@ -1,6 +1,7 @@
 hudanimations_manifest
 {
 	"file"		"scripts/anim_jar.txt"
+	"file"		"scripts/anim_deathfix.txt"
 	
 	"file"		"scripts/base/hudanimations_tf.txt"
 	
