@@ -1,3 +1,5 @@
+#base "../resource/ui/custom/killfeed.res"
+
 #base "base/hudlayout.res"
 
 "Resource/HudLayout.res"
