@@ -17,7 +17,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"jaKillfeed10"
+		"TextFont"		"jaKillfeed"
 		
 		// ICON COLORS
 		"IconColor"			"0 0 0 255"

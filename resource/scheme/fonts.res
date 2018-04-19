@@ -89,60 +89,6 @@ Scheme
 			"1"
 			{
 				"name" "Product Sans"
-				"tall" "22"
-				"antialias" "1"
-			}
-		}
-		"jaKillfeed16"
-		{
-			"1"
-			{
-				"name" "Product Sans"
-				"tall" "16"
-				"antialias" "1"
-			}
-		}
-		"jaKillfeed18"
-		{
-			"1"
-			{
-				"name" "Product Sans"
-				"tall" "18"
-				"antialias" "1"
-			}
-		}
-		"jaKillfeed20"
-		{
-			"1"
-			{
-				"name" "Product Sans"
-				"tall" "20"
-				"antialias" "1"
-			}
-		}
-		"jaKillfeed14"
-		{
-			"1"
-			{
-				"name" "Product Sans"
-				"tall" "14"
-				"antialias" "1"
-			}
-		}
-		"jaKillfeed12"
-		{
-			"1"
-			{
-				"name" "Product Sans"
-				"tall" "12"
-				"antialias" "1"
-			}
-		}
-		"jaKillfeed10"
-		{
-			"1"
-			{
-				"name" "Product Sans"
 				"tall" "10"
 				"antialias" "1"
 			}
