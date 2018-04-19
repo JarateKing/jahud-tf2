@@ -1,3 +1,4 @@
+#base "../resource/ui/custom/damageindicator.res"
 #base "../resource/ui/custom/killfeed.res"
 
 #base "base/hudlayout.res"
