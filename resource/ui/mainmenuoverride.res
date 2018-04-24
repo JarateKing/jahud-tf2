@@ -96,12 +96,25 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"ReposAnchor"
+		{
+			"ControlName" "EditablePanel"
+			"fieldName" "ReposAnchor"
+			"xpos" 		"cs-2"
+			"ypos"		"0"
+			"wide"		"f0"
+			"tall" 		"32"
+			"visible"	"1"
+			"enabled" 	"1"
+			"proportionaltoparent" "0"
+		}
 
 		"mmFading1blur"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"mmFading1blur"
-			"xpos"			"cs-0.5+150"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"101"
 			"wide"			"2000"
@@ -110,12 +123,17 @@
 			"enabled"		"1"
 			"image"			"replay/thumbnails/mm/mm1b"
 			"scaleimage"		"1"
+			"proportionaltoparent" "0"
+			
+			"pin_to_sibling" 	"ReposAnchor"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 		"mmFading2blur"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"mmFading2blur"
-			"xpos"			"cs-0.5+150"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"101"
 			"wide"			"2000"
@@ -124,12 +142,17 @@
 			"enabled"		"1"
 			"image"			"replay/thumbnails/mm/mm2b"
 			"scaleimage"		"1"
+			"proportionaltoparent" "0"
+			
+			"pin_to_sibling" 	"ReposAnchor"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 		"mmFading3blur"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"mmFading3blur"
-			"xpos"			"cs-0.5+150"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"101"
 			"wide"			"2000"
@@ -138,12 +161,17 @@
 			"enabled"		"1"
 			"image"			"replay/thumbnails/mm/mm3b"
 			"scaleimage"		"1"
+			"proportionaltoparent" "0"
+			
+			"pin_to_sibling" 	"ReposAnchor"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 		"mmFading4blur"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"mmFading4blur"
-			"xpos"			"cs-0.5+150"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"101"
 			"wide"			"2000"
@@ -152,11 +180,16 @@
 			"enabled"		"1"
 			"image"			"replay/thumbnails/mm/mm4b"
 			"scaleimage"		"1"
+			"proportionaltoparent" "0"
+			
+			"pin_to_sibling" 	"ReposAnchor"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 		"mmBlurCover"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"		"mmFading4blur"
+			"fieldName"		"mmBlurCover"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"102"
@@ -169,7 +202,7 @@
 		"mmBlurBG"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"		"mmFading4blur"
+			"fieldName"		"mmBlurBG"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"99"
