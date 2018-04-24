@@ -84,4 +84,25 @@
 			"scaleimage"		"1"
 		}
 	}
+	
+	"TFLogoImage"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"TFCharacterImage"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"BackgroundFooter"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}				
+	"FooterLine"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
 }
