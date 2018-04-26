@@ -6,8 +6,6 @@ cc_lang "\default"
 cc_lang "\utilities"
 cc_lang "\voice"
 
-or magnum_cc_common/default/utilities/voice to also set up captions if they're disabled
-
 to return to the hud's default;
 cc_lang "english"
 
