@@ -22,6 +22,25 @@ Scheme
 				"blur" "2"
 			}
 		}
+		"jaGameplayMajorPercent"
+		{
+			"1"
+			{
+				"name" "jahud_percent+15"
+				"tall" "38"
+				"antialias" "1"
+			}
+		}
+		"jaGameplayMajorPercentShadow"
+		{
+			"1"
+			{
+				"name" "jahud_percent+15"
+				"tall" "38"
+				"antialias" "1"
+				"blur" "2"
+			}
+		}
 		
 		"jaGameplayMinor"
 		{
@@ -137,6 +156,11 @@ Scheme
 		{
 			"font" "resource/fonts/Product Sans Regular.ttf"
 			"name" "Product Sans"
+		}
+		"15"
+		{
+			"font" "resource/fonts/jahud_percent+15_linux.otf"
+			"name" "jahud_percent+15"
 		}
 	}
 }
