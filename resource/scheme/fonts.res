@@ -7,7 +7,8 @@ Scheme
 			"1"
 			{
 				"name" "jahud_num+15"
-				"tall" "38"
+				"tall" "38" [$WINDOWS]
+				"tall" "30" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -17,7 +18,8 @@ Scheme
 			"1"
 			{
 				"name" "jahud_num+15"
-				"tall" "38"
+				"tall" "38" [$WINDOWS]
+				"tall" "30" [$LINUX]
 				"antialias" "1"
 				"blur" "2"
 			}
@@ -28,7 +30,8 @@ Scheme
 			"1"
 			{
 				"name" "jahud_num-10"
-				"tall" "20"
+				"tall" "20" [$WINDOWS]
+				"tall" "17" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -38,7 +41,8 @@ Scheme
 			"1"
 			{
 				"name" "jahud_num-10"
-				"tall" "20"
+				"tall" "20" [$WINDOWS]
+				"tall" "17" [$LINUX]
 				"antialias" "1"
 				"blur" "1"
 			}
@@ -49,7 +53,8 @@ Scheme
 			"1"
 			{
 				"name" "jahud_zero+16"
-				"tall" "38"
+				"tall" "38" [$WINDOWS]
+				"tall" "30" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -59,7 +64,8 @@ Scheme
 			"1"
 			{
 				"name" "jahud_dashless+5"
-				"tall" "18"
+				"tall" "18" [$WINDOWS]
+				"tall" "10" [$LINUX]
 				"antialias" "1"
 				"additive" "1"
 				"dropshadow" "1"
@@ -70,7 +76,8 @@ Scheme
 			"1"
 			{
 				"name" "jahud_dashless+5"
-				"tall" "18"
+				"tall" "18" [$WINDOWS]
+				"tall" "16" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -79,7 +86,8 @@ Scheme
 			"1"
 			{
 				"name" "jahud_dashless+5"
-				"tall" "18"
+				"tall" "18" [$WINDOWS]
+				"tall" "16" [$LINUX]
 				"antialias" "1"
 				"blur" "1"
 			}
@@ -89,7 +97,8 @@ Scheme
 			"1"
 			{
 				"name" "Product Sans"
-				"tall" "10"
+				"tall" "10" [$WINDOWS]
+				"tall" "10" [$LINUX]
 				"antialias" "1"
 			}
 		}
