@@ -7,8 +7,7 @@ Scheme
 			"1"
 			{
 				"name" "jahud_num+15"
-				"tall" "38" [$WINDOWS]
-				"tall" "30" [$LINUX]
+				"tall" "38"
 				"antialias" "1"
 			}
 		}
@@ -18,8 +17,7 @@ Scheme
 			"1"
 			{
 				"name" "jahud_num+15"
-				"tall" "38" [$WINDOWS]
-				"tall" "30" [$LINUX]
+				"tall" "38"
 				"antialias" "1"
 				"blur" "2"
 			}
@@ -30,8 +28,7 @@ Scheme
 			"1"
 			{
 				"name" "jahud_num-10"
-				"tall" "20" [$WINDOWS]
-				"tall" "17" [$LINUX]
+				"tall" "20"
 				"antialias" "1"
 			}
 		}
@@ -41,8 +38,7 @@ Scheme
 			"1"
 			{
 				"name" "jahud_num-10"
-				"tall" "20" [$WINDOWS]
-				"tall" "17" [$LINUX]
+				"tall" "20"
 				"antialias" "1"
 				"blur" "1"
 			}
@@ -117,12 +113,14 @@ Scheme
 		}
 		"10"
 		{
-			"font" "resource/fonts/jahud_num+15.otf"
+			"font" "resource/fonts/jahud_num+15.otf" [$WINDOWS]
+			"font" "resource/fonts/jahud_num+15_linux.otf" [$LINUX]
 			"name" "jahud_num+15"
 		}
 		"11"
 		{
-			"font" "resource/fonts/jahud_num-10.otf"
+			"font" "resource/fonts/jahud_num-10.otf" [$WINDOWS]
+			"font" "resource/fonts/jahud_num-10_linux.otf" [$LINUX]
 			"name" "jahud_num-10"
 		}
 		"12"
