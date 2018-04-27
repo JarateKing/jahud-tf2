@@ -22,8 +22,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"UberPercentValueShadow"
-		"xpos"			"c-35"
-		"ypos"			"c536"
+		"xpos"			"0"
+		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"300"
 		"tall"			"61"
@@ -34,14 +34,18 @@
 		"font"			"jaGameplayMajorShadow"
 		"fgcolor"		"jaBG"
 		"alpha"			"200"
+
+		"pin_to_sibling" 	"UberPercentValue"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"UberPercentSign"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"UberPercentSign"
-		"xpos"			"c-35"
-		"ypos"			"c535"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"60"
@@ -51,13 +55,17 @@
 		"textAlignment"		"center"	
 		"font"			"jaGameplayMajorPercent"
 		"fgcolor"		"jaFG2"
+
+		"pin_to_sibling" 	"UberPercentValue"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	"UberPercentSignShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"UberPercentSignShadow"
-		"xpos"			"c-35"
-		"ypos"			"c536"
+		"xpos"			"0"
+		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"300"
 		"tall"			"61"
@@ -68,5 +76,9 @@
 		"font"			"jaGameplayMajorPercentShadow"
 		"fgcolor"		"jaBG"
 		"alpha"			"200"
+
+		"pin_to_sibling" 	"UberPercentValue"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 }
