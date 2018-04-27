@@ -26,6 +26,7 @@ IF EXIST "dev\HLExtract.exe" (
 	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%resource_folder%" -e "root\resource\ui\hudammoweapons.res" -m -v -s
 	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%resource_folder%" -e "root\resource\ui\hudplayerclass.res" -m -v -s
 	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%resource_folder%" -e "root\resource\ui\controlpointicon.res" -m -v -s
+	dev\HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "%resource_folder%" -e "root\resource\ui\hudmediccharge.res" -m -v -s
 	
 	IF EXIST "dev\fart.exe" (
 		echo Removing minmode lines
