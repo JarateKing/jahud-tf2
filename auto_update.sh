@@ -17,6 +17,7 @@ dev/HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "resource/ui/base" -e "root\res
 dev/HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "resource/ui/base" -e "root\resource\ui\hudammoweapons.res" -m -v -s
 dev/HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "resource/ui/base" -e "root\resource\ui\hudplayerclass.res" -m -v -s
 dev/HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "resource/ui/base" -e "root\resource\ui\controlpointicon.res" -m -v -s
+dev/HLExtract.exe -p "../../tf2_misc_dir.vpk" -d "resource/ui/base" -e "root\resource\ui\hudmediccharge.res" -m -v -s
 
 # replace minmode lines
 sed -i 's/minmode/minbad/gI' scripts/base/hudlayout.res
