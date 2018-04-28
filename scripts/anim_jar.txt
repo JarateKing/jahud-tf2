@@ -34,3 +34,61 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 }
+
+event HudMedicCharged
+{
+	Animate UberPercentSign FgColor	"255 46 46 255"	Linear	0.0 0.0
+
+	Animate UberPercentSign FgColor	"255 85 31 255"	Linear	0.0 0.08
+	Animate UberPercentSign FgColor	"255 117 4 255"	Linear	0.08 0.08
+	Animate UberPercentSign FgColor	"255 146 0 255"	Linear	0.16 0.08
+	Animate UberPercentSign FgColor	"255 173 0 255"	Linear	0.24 0.08
+	Animate UberPercentSign FgColor	"255 200 0 255"	Linear	0.32 0.08
+	Animate UberPercentSign FgColor	"255 225 0 255"	Linear	0.4 0.08
+	Animate UberPercentSign FgColor	"245 240 0 255"	Linear	0.48 0.08
+	Animate UberPercentSign FgColor	"224 243 0 255"	Linear	0.56 0.08
+	Animate UberPercentSign FgColor	"200 246 0 255"	Linear	0.64 0.08
+	Animate UberPercentSign FgColor	"174 249 0 255"	Linear	0.72 0.08
+	Animate UberPercentSign FgColor	"142 251 0 255"	Linear	0.8 0.08
+	Animate UberPercentSign FgColor	"101 253 0 255"	Linear	0.88 0.08
+	Animate UberPercentSign FgColor	"0 255 30 255"	Linear	0.96 0.08
+	Animate UberPercentSign FgColor	"0 255 100 255"	Linear	1.04 0.08
+	Animate UberPercentSign FgColor	"0 255 145 255"	Linear	1.12 0.08
+	Animate UberPercentSign FgColor	"0 255 182 255"	Linear	1.2 0.08
+	Animate UberPercentSign FgColor	"0 255 212 255"	Linear	1.28 0.08
+	Animate UberPercentSign FgColor	"0 252 235 255"	Linear	1.36 0.08
+	Animate UberPercentSign FgColor	"0 248 250 255"	Linear	1.44 0.08
+	Animate UberPercentSign FgColor	"0 238 255 255"	Linear	1.52 0.08
+	Animate UberPercentSign FgColor	"0 220 255 255"	Linear	1.6 0.08
+	Animate UberPercentSign FgColor	"0 201 255 255"	Linear	1.68 0.08
+	Animate UberPercentSign FgColor	"0 179 255 255"	Linear	1.76 0.08
+	Animate UberPercentSign FgColor	"0 155 255 255"	Linear	1.84 0.08
+	Animate UberPercentSign FgColor	"0 127 255 255"	Linear	1.92 0.08
+	Animate UberPercentSign FgColor	"92 92 255 255"	Linear	2.0 0.08
+	Animate UberPercentSign FgColor	"123 88 255 255"	Linear	2.08 0.08
+	Animate UberPercentSign FgColor	"150 84 255 255"	Linear	2.16 0.08
+	Animate UberPercentSign FgColor	"175 77 255 255"	Linear	2.24 0.08
+	Animate UberPercentSign FgColor	"199 68 255 255"	Linear	2.32 0.08
+	Animate UberPercentSign FgColor	"222 56 255 255"	Linear	2.4 0.08
+	Animate UberPercentSign FgColor	"244 37 255 255"	Linear	2.48 0.08
+	Animate UberPercentSign FgColor	"255 0 237 255"	Linear	2.56 0.08
+	Animate UberPercentSign FgColor	"255 0 200 255"	Linear	2.64 0.08
+	Animate UberPercentSign FgColor	"255 0 165 255"	Linear	2.72 0.08
+	Animate UberPercentSign FgColor	"255 0 131 255"	Linear	2.8 0.08
+	Animate UberPercentSign FgColor	"255 0 101 255"	Linear	2.88 0.08
+	Animate UberPercentSign FgColor	"255 0 72 255"	Linear	2.96 0.08
+	Animate UberPercentSign FgColor	"255 46 46 255"	Linear	3.04 0.08
+
+	RunEvent HudMedicChargedLoop 3.12
+}
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+
+	Animate UberPercentSign FgColor "jaFG2" Linear 0.0 0.0
+}
