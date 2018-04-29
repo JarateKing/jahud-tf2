@@ -68,8 +68,7 @@ Scheme
 			"1"
 			{
 				"name" "jahud_zero+16"
-				"tall" "38" [$WINDOWS]
-				"tall" "30" [$LINUX]
+				"tall" "38"
 				"antialias" "1"
 			}
 		}
@@ -149,7 +148,8 @@ Scheme
 		}
 		"13"
 		{
-			"font" "resource/fonts/jahud_zero+16.otf"
+			"font" "resource/fonts/jahud_zero+16.otf" [$WINDOWS]
+			"font" "resource/fonts/jahud_zero+16_linux.otf" [$LINUX]
 			"name" "jahud_zero+16"
 		}
 		"14"
