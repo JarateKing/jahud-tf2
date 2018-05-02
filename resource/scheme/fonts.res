@@ -159,7 +159,8 @@ Scheme
 		}
 		"15"
 		{
-			"font" "resource/fonts/jahud_percent+15_linux.otf"
+			"font" "resource/fonts/jahud_percent+15.otf" [$WINDOWS]
+			"font" "resource/fonts/jahud_percent+15_linux.otf" [$LINUX]
 			"name" "jahud_percent+15"
 		}
 	}
