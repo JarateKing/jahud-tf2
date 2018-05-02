@@ -1,6 +1,8 @@
 hudanimations_manifest
 {
-	"file"		"scripts/anim_jar.txt"
+	"file"		"scripts/anim_jar_health.txt"
+	"file"		"scripts/anim_jar_uber.txt"
+	
 	"file"		"scripts/anim_deathfix.txt"
 	"file"      "scripts/anim_uncrating.txt"
 	
