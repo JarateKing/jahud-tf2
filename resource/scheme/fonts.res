@@ -116,6 +116,25 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"jaKillstreakWord"
+		{
+			"1"
+			{
+				"name" "Product Sans"
+				"tall" "16"
+				"antialias" "1"
+			}
+		}
+		"jaKillstreakNum"
+		{
+			"1"
+			{
+				"name" "jahud_num-10"
+				"tall" "16"
+				"antialias" "1"
+			}
+		}
 	}
 	CustomFontFiles
 	{
