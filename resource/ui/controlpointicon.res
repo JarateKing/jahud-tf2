@@ -7,8 +7,8 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"24"
-		"tall"		"24"
+		"wide"		"27"
+		"tall"		"27"
 	}
 	
 	"Countdown"
@@ -16,8 +16,8 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"4"
-		"wide"		"24"
-		"tall"		"24"
+		"wide"		"27"
+		"tall"		"27"
 	}	
 
 	"CapPlayerImage"
@@ -33,8 +33,8 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"0"
-		"wide"		"24"
-		"tall"		"24"
+		"wide"		"0"//"24"
+		"tall"		"0"//"24"
 		"visible"	"1"
 		"enabled"	"1"
 		"image"		"replay/thumbnails/icon_obj_shadow"
@@ -46,8 +46,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"24"
-		"tall"			"24"
+		"wide"			"27"
+		"tall"			"27"
 		
 		"font"			"CapPlayerFont"
 		"labelText"		"%numcappers%"
