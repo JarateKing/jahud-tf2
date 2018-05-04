@@ -7,8 +7,8 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"27"
-		"tall"		"27"
+		"wide"		"18"
+		"tall"		"18"
 	}
 	
 	"Countdown"
@@ -16,8 +16,8 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"4"
-		"wide"		"27"
-		"tall"		"27"
+		"wide"		"18"
+		"tall"		"18"
 	}	
 
 	"CapPlayerImage"
@@ -46,8 +46,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"27"
-		"tall"			"27"
+		"wide"			"18"
+		"tall"			"18"
 		
 		"font"			"CapPlayerFont"
 		"labelText"		"%numcappers%"
