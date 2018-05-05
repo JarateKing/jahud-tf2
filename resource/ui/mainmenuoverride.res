@@ -1,4 +1,5 @@
 #base "base/mainmenuoverride.res"
+#base "custom/cp_icon_preload.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
