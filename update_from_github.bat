@@ -16,9 +16,6 @@ dev\wget.exe https://github.com/JarateKing/jahud-tf2/archive/master.zip --no-che
 dev\unzip.exe master.zip
 :: move folders and files out of jarconfig-master
 xcopy /SY "%repo_name%\*" "%current_folder%"
-:: for /F %%A in ("%repo_name%\*") do move /Y "%%~A" "%current_folder%"
 :: remove folders and files used in the process
-::rmdir /S /Q %repo_name%
-::del master.zip
-
-pause
+rmdir /S /Q %repo_name%
+del master.zip
