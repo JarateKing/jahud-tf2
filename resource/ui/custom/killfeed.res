@@ -24,8 +24,8 @@
 		"LocalPlayerColor"	"0 0 0 255"
 		
 		// TEXT COLORS
-		"TeamBlue"		"88 60 250 255"
-		"TeamRed"		"242 41 76 255"
+		"TeamBlue"		"jaBlu"
+		"TeamRed"		"jaRed"
 		"PurpleText"	"0 255 0 255" //monoculus
 		"GreenText"		"0 255 0 255" //mersasmus
 

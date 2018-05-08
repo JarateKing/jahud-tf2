@@ -12,5 +12,8 @@ Scheme
 		"jaMinorHigh" "116 196 51 255"
 		
 		"jaDamageNumber" "250 235 10 255"
+		
+		"jaRed" "242 41 76 255"
+		"jaBlu" "88 60 250 255"
 	}
 }
