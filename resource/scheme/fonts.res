@@ -2,6 +2,52 @@ Scheme
 {
 	Fonts
 	{
+		"Default"
+		{
+			"1"
+			{
+				"name" "Product Sans"
+				"tall" "18"
+				"antialias" "1"
+			}
+			"2"
+			{
+				"name" "Product Sans"
+				"tall" "18"
+				"antialias" "1"
+			}
+			"3"
+			{
+				"name" "Product Sans"
+				"tall" "18"
+				"antialias" "1"
+			}
+			"4"
+			{
+				"name" "Product Sans"
+				"tall" "18"
+				"antialias" "1"
+			}
+			"5"
+			{
+				"name" "Product Sans"
+				"tall" "18"
+				"antialias" "1"
+			}
+			"6"
+			{
+				"name" "Product Sans"
+				"tall" "18"
+				"antialias" "1"
+			}
+			"7"
+			{
+				"name" "Product Sans"
+				"tall" "18"
+				"antialias" "1"
+			}
+		}
+	
 		"jaGameplayMajor"
 		{
 			"1"
@@ -135,6 +181,25 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"jaScoreboard"
+		{
+			"1"
+			{
+				"name" "jahud_invnum+20"
+				"tall" "32"
+				"antialias" "1"
+			}
+		}
+		"jaScoreboardNumbers"
+		{
+			"1"
+			{
+				"name" "jahud_num+15"
+				"tall" "12"
+				"antialias" "1"
+			}
+		}
 	}
 	CustomFontFiles
 	{
@@ -181,6 +246,11 @@ Scheme
 			"font" "resource/fonts/jahud_percent+15.otf" [$WINDOWS]
 			"font" "resource/fonts/jahud_percent+15_linux.otf" [$LINUX]
 			"name" "jahud_percent+15"
+		}
+		"16"
+		{
+			"font" "resource/fonts/jahud_invnum+20.otf"
+			"name" "jahud_invnum+20"
 		}
 	}
 }
