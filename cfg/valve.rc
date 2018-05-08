@@ -5,6 +5,10 @@ r_decal_cullsize 1
 // Setup custom controller
 exec joystick.cfg
 
+// jahud stuff
+// be overriden by autoexec
+exec jahud_cfg
+
 // run a user script file if present
 exec autoexec.cfg
 
@@ -17,7 +21,3 @@ stuffcmds
 startupmenu
 
 sv_unlockedchapters 99
-
-// jahud stuff
-
-exec jahud_cfg
