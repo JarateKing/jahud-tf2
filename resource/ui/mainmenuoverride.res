@@ -235,4 +235,38 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
+	
+	"FriendsContainer"
+	{
+		"ControlName"	"ImagePanel" // also disable the hud element
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"EventPromo"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"CycleRankTypeButton"
+	{
+		"wide"			"0"
+		"tall"			"0"	
+	}
+	"RankPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"RankBorder"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"VRBGPanel"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
 }
