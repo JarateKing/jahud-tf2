@@ -25,11 +25,15 @@ event HudLowAmmoPulse
 {
 	Animate AmmoValue FgColor "jaMajorLow" Linear 0.0 0.0
 	Animate AmmoInReserve FgColor "jaMinorLow" Linear 0.0 0.0
+	Animate AmmoValueZero FgColor "jaMinorLow" Linear 0.0 0.0
+	Animate AmmoValueZero Alpha "200" Linear 0.0 0.0
 }
 event HudLowAmmoPulseStop
 {
 	Animate AmmoValue FgColor "jaFG" Linear 0.0 0.0
 	Animate AmmoInReserve FgColor "jaFG2" Linear 0.0 0.0
+	Animate AmmoValueZero FgColor "jaBG" Linear 0.0 0.0
+	Animate AmmoValueZero Alpha "120" Linear 0.0 0.0
 
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
