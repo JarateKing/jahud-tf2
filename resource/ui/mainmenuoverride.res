@@ -269,4 +269,9 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
+	"ShowPromoCodesButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
 }
