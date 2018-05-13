@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveTimePanel.res"
-{	
+{
 	"TimePanelBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -32,9 +32,9 @@
 		"enabled"			"1"
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
-		"color_active"			"TimerProgress.Active"
-		"color_inactive"		"TimerProgress.InActive"
-		"color_warning"			"TimerProgress.Warning"
+		"color_active"			"jaFG"
+		"color_inactive"		"jaBG"
+		"color_warning"			"jaFG"
 		"percent_warning"		"1.01"
 	}
 	"WaitingForPlayersLabel"
@@ -77,7 +77,7 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"image"			"../hud/objectives_timepanel_suddendeath"
 		"scaleImage"		"1"	
 
 		if_match
@@ -120,8 +120,8 @@
 		"xpos"			"16"	[$WIN32]
 		"ypos"			"31"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
@@ -238,9 +238,7 @@
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
+		"fgcolor"		"jaFG"
 		"font"			"ClockSubText"
 
 		if_match
