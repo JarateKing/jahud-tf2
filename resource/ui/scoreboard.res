@@ -349,8 +349,8 @@
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" "RedTeamScoreAnchor"
-		"xpos" 		"370"
-		"ypos"		"17"
+		"xpos" 		"361"
+		"ypos"		"72"
 		"wide"		"0"
 		"tall" 		"0"
 		"visible"	"1"
@@ -374,7 +374,7 @@
 		"auto_wide_tocontents" "1"
 		
 		"pin_to_sibling" 	"RedTeamScoreAnchor"
-		"pin_corner_to_sibling" "4"
+		"pin_corner_to_sibling" "2"
 		"pin_to_sibling_corner" "1"
 	}
 	"RedTeamPadding1"
