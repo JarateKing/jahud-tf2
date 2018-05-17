@@ -7,3 +7,9 @@ Hud for TF2 designed to be easily updateable.
 1. Download zip
 2. Extract the jahud-tf2-master folder to tf/custom/
 3. Play tf2
+
+## Credits
+
+* Wiethoofd - charge meters, uncrate animation, auto update script
+* Mastercoms - deathfix animation
+* Rhapsody - github install script
