@@ -26,5 +26,23 @@
 		"wide"	"f0"
 		"tall"	"960"
 	}
+	
+	HudDemomanCharge
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"MeterFG"		"ProgressOffWhite"
+		"MeterBG"		"Gray"
+	}
+
+	HudDemomanPipes
+	{
+		"xpos"			"c-75"
+		"ypos"			"r109"
+		"wide"			"150"
+		"tall"			"30"
+	}
 }
 
