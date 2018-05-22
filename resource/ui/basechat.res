@@ -21,7 +21,7 @@
 		"fieldName" 		ChatInputLine
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"
+		"xpos"			"-1"
 		"ypos"			"395"
 		"wide"	 		"350" //350
 		"tall"	 		"2"

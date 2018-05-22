@@ -31,7 +31,7 @@ Scheme
 
 		"Chat.TypingText"		"237 243 250 255"
 
-		Frame.TitleTextInsetX			15
+		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
 		Frame.BgColor					"160 160 160 0"
