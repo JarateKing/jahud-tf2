@@ -13,3 +13,4 @@ Hud for TF2 designed to be easily updateable.
 * Wiethoofd - charge meters, uncrate animation, auto update script
 * Mastercoms - deathfix animation
 * Rhapsody - github install script
+* Omni - engineer building status
