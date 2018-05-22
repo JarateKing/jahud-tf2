@@ -44,5 +44,17 @@
 		"wide"			"150"
 		"tall"			"30"
 	}
+	
+	CHudAccountPanel
+	{
+		"fieldName"				"CHudAccountPanel"
+		"xpos"					"12"
+		"ypos"					"8"
+		"wide"					"117"
+		"tall"  				"29"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"2"
+	}
 }
 
