@@ -259,6 +259,12 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
+	"RankModelPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"tall"			"0"
+	}
 	"RankBorder"
 	{
 		"wide"			"0"
