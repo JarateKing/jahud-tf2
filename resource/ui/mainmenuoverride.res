@@ -325,4 +325,14 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
+	"NoGCMessage"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"NoGCImage"
+	{
+		"zpos"			"0"
+		"wide"			"0"
+	}	
 }
