@@ -200,6 +200,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"jaMainMenuHeader"
+		{
+			"1"
+			{
+				"name" "jahud+20"
+				"tall" "50"
+				"antialias" "1"
+			}
+		}
 	}
 	CustomFontFiles
 	{

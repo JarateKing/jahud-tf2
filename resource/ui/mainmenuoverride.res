@@ -215,6 +215,51 @@
 		}
 	}
 	
+	"mmButtonPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"mmButtonPanel"
+		"xpos"			"c-300"
+		"ypos"			"0"
+		"zpos"			"-197"
+		"wide"			"280"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"Header"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Header"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"5"
+			"wide"			"f0"
+			"tall"			"50"
+			"proportionaltoparent" "1"
+			
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"JAHUD"
+			"textAlignment"	"center"	
+			"font"			"jaMainMenuHeader"
+			"fgcolor"		"jaFG"
+		}
+		"HeaderLine"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"HeaderLine"
+			"xpos"			"80"
+			"ypos"			"87"
+			"zpos"			"4"
+			"wide"			"120"
+			"tall"			"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"jaFG"
+		}
+	}
+	
 	"TFLogoImage"
 	{
 		"wide"			"0"
