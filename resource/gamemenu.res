@@ -28,4 +28,13 @@
 		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
+	
+	"mmButtonPanelIngame"
+	{
+		"label"			""
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+		"subimage" "icon_checkbox"
+		"tooltip" "#MMenu_CallVote"
+	}
 }
