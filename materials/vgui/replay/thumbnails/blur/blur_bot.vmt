@@ -8,4 +8,9 @@
 	
 	"$scale" "[1 1]"
 	"$normalmap" "vgui/replay/thumbnails/blur/blur_bot"
+	
+	<dx90
+	{
+		 	"$fallbackmaterial" "vgui/replay/thumbnails/blur/fallback"
+	}
 }
