@@ -19,4 +19,13 @@
 		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
+	
+	"mmButtonPanel"
+	{
+		"label"			""
+		"command"		"callvote"
+		"OnlyAtMenu"	"1"
+		"subimage" "icon_checkbox"
+		"tooltip" "#MMenu_CallVote"
+	}
 }
