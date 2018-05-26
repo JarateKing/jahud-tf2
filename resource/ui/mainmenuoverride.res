@@ -467,4 +467,59 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
+	"CharacterSetupButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"GeneralStoreButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"SettingsButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"TF2SettingsButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"NewUserForumsButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"AchievementsButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"CommentaryButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"CoachPlayersButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"WorkshopButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"ReplayButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"ReportBugButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
 }
