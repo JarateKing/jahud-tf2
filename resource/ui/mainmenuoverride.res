@@ -522,4 +522,24 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
+	"ReportPlayerButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"CallVoteButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"MutePlayersButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
+	"RequestCoachButton"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
 }
