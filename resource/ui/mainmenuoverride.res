@@ -554,7 +554,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine echo test"
+		"Command"		"engine gamemenucommand openserverbrowser"
 		
 		"font"			"jaMainMenuButtons"
 		"labelText"		"Browse"
@@ -579,7 +579,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine echo test"
+		"Command"		"play_casual"
 		
 		"font"			"jaMainMenuButtons"
 		"labelText"		"Casual"
@@ -608,7 +608,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine echo test"
+		"Command"		"play_competitive"
 		
 		"font"			"jaMainMenuButtons"
 		"labelText"		"Comp"
@@ -637,7 +637,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine echo test"
+		"Command"		"play_mvm"
 		
 		"font"			"jaMainMenuButtons"
 		"labelText"		"MvM"
@@ -666,7 +666,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine echo test"
+		"Command"		"engine open_charinfo"
 		
 		"font"			"jaMainMenuButtons"
 		"labelText"		"Items"
@@ -695,7 +695,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine echo test"
+		"Command"		"engine open_store"
 		
 		"font"			"jaMainMenuButtons"
 		"labelText"		"Shop"
@@ -724,7 +724,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine echo test"
+		"Command"		"engine replay_reloadbrowser"
 		
 		"font"			"jaMainMenuButtons"
 		"labelText"		"Replays"
@@ -753,7 +753,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine echo test"
+		"Command"		"engine toggleconsole"
 		
 		"font"			"jaMainMenuButtons"
 		"labelText"		"Console"
@@ -771,10 +771,10 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"ButtonOptionsOutgame"
+	"ButtonDemosOutgame"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonOptionsOutgame"
+		"fieldName"		"ButtonDemosOutgame"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -782,10 +782,10 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine echo test"
+		"Command"		"engine demoui"
 		
 		"font"			"jaMainMenuButtons"
-		"labelText"		"Options"
+		"labelText"		"Demos"
 		"textAlignment"	"center"
 		
 		"defaultFgColor_override" "jaFG"
@@ -800,6 +800,35 @@
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
+	"ButtonOptionsOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonOptionsOutgame"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"OpenOptionsDialog"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"Options"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+		
+		"pin_to_sibling" 	"ButtonDemosOutgame"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
 	"ButtonAdvOutgame"
 	{
 		"ControlName"	"CExImageButton"
@@ -811,7 +840,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine echo test"
+		"Command"		"opentf2options"
 		
 		"font"			"jaMainMenuButtons"
 		"labelText"		"Adv Options"
@@ -840,7 +869,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine echo test"
+		"Command"		"engine gamemenucommand quit"
 		
 		"font"			"jaMainMenuButtons"
 		"labelText"		"Quit"
