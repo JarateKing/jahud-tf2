@@ -543,10 +543,10 @@
 		"tall"			"0"
 	}
 	
-	"ButtonBrowseOutgame"
+	"ButtonBrowse"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonBrowseOutgame"
+		"fieldName"		"ButtonBrowse"
 		"xpos"			"c-300"
 		"ypos"			"100"
 		"zpos"			"5"
@@ -568,10 +568,10 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 	}
-	"ButtonCasualOutgame"
+	"ButtonCasual"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonCasualOutgame"
+		"fieldName"		"ButtonCasual"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -593,14 +593,14 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 		
-		"pin_to_sibling" 	"ButtonBrowseOutgame"
+		"pin_to_sibling" 	"ButtonBrowse"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"ButtonCompOutgame"
+	"ButtonComp"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonCompOutgame"
+		"fieldName"		"ButtonComp"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -622,14 +622,14 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 		
-		"pin_to_sibling" 	"ButtonCasualOutgame"
+		"pin_to_sibling" 	"ButtonCasual"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"ButtonMvmOutgame"
+	"ButtonMvm"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonMvmOutgame"
+		"fieldName"		"ButtonMvm"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -651,14 +651,14 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 		
-		"pin_to_sibling" 	"ButtonCompOutgame"
+		"pin_to_sibling" 	"ButtonComp"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"ButtonItemsOutgame"
+	"ButtonItems"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonItemsOutgame"
+		"fieldName"		"ButtonItems"
 		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"5"
@@ -680,14 +680,14 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 		
-		"pin_to_sibling" 	"ButtonMvmOutgame"
+		"pin_to_sibling" 	"ButtonMvm"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"ButtonShopOutgame"
+	"ButtonShop"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonShopOutgame"
+		"fieldName"		"ButtonShop"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -709,14 +709,14 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 		
-		"pin_to_sibling" 	"ButtonItemsOutgame"
+		"pin_to_sibling" 	"ButtonItems"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"ButtonReplaysOutgame"
+	"ButtonReplays"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonReplaysOutgame"
+		"fieldName"		"ButtonReplays"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -738,14 +738,14 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 		
-		"pin_to_sibling" 	"ButtonShopOutgame"
+		"pin_to_sibling" 	"ButtonShop"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"ButtonConsoleOutgame"
+	"ButtonConsole"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonConsoleOutgame"
+		"fieldName"		"ButtonConsole"
 		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"5"
@@ -767,14 +767,14 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 		
-		"pin_to_sibling" 	"ButtonReplaysOutgame"
+		"pin_to_sibling" 	"ButtonReplays"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"ButtonDemosOutgame"
+	"ButtonDemos"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonDemosOutgame"
+		"fieldName"		"ButtonDemos"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -796,14 +796,14 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 		
-		"pin_to_sibling" 	"ButtonConsoleOutgame"
+		"pin_to_sibling" 	"ButtonConsole"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"ButtonOptionsOutgame"
+	"ButtonOptions"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonOptionsOutgame"
+		"fieldName"		"ButtonOptions"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -825,14 +825,14 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 		
-		"pin_to_sibling" 	"ButtonDemosOutgame"
+		"pin_to_sibling" 	"ButtonDemos"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"ButtonAdvOutgame"
+	"ButtonAdv"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonAdvOutgame"
+		"fieldName"		"ButtonAdv"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -854,14 +854,14 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 		
-		"pin_to_sibling" 	"ButtonOptionsOutgame"
+		"pin_to_sibling" 	"ButtonOptions"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 	}
-	"ButtonQuitOutgame"
+	"ButtonQuit"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ButtonQuitOutgame"
+		"fieldName"		"ButtonQuit"
 		"xpos"			"c-300"
 		"ypos"			"r50"
 		"zpos"			"5"
