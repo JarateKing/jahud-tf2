@@ -542,4 +542,316 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
+	
+	"ButtonBrowseOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonBrowseOutgame"
+		"xpos"			"c-300"
+		"ypos"			"100"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine echo test"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"Browse"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+	}
+	"ButtonCasualOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonCasualOutgame"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine echo test"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"Casual"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+		
+		"pin_to_sibling" 	"ButtonBrowseOutgame"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	"ButtonCompOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonCompOutgame"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine echo test"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"Comp"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+		
+		"pin_to_sibling" 	"ButtonCasualOutgame"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	"ButtonMvmOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonMvmOutgame"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine echo test"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"MvM"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+		
+		"pin_to_sibling" 	"ButtonCompOutgame"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	"ButtonItemsOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonItemsOutgame"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine echo test"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"Items"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+		
+		"pin_to_sibling" 	"ButtonMvmOutgame"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	"ButtonShopOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonShopOutgame"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine echo test"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"Shop"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+		
+		"pin_to_sibling" 	"ButtonItemsOutgame"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	"ButtonReplaysOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonReplaysOutgame"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine echo test"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"Replays"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+		
+		"pin_to_sibling" 	"ButtonShopOutgame"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	"ButtonConsoleOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonConsoleOutgame"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine echo test"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"Console"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+		
+		"pin_to_sibling" 	"ButtonReplaysOutgame"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	"ButtonOptionsOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonOptionsOutgame"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine echo test"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"Options"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+		
+		"pin_to_sibling" 	"ButtonConsoleOutgame"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	"ButtonAdvOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonAdvOutgame"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine echo test"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"Adv Options"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+		
+		"pin_to_sibling" 	"ButtonOptionsOutgame"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+	"ButtonQuitOutgame"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ButtonQuitOutgame"
+		"xpos"			"c-300"
+		"ypos"			"r50"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"Command"		"engine echo test"
+		
+		"font"			"jaMainMenuButtons"
+		"labelText"		"Quit"
+		"textAlignment"	"center"
+		
+		"defaultFgColor_override" "jaFG"
+		"armedFgColor_override" "jaFG2"
+		"depressedFgColor_override" "jaFG2"
+		
+		"paintbackground"	"0"
+		"border_default"	"Null"
+		"border_armed"		"Null"
+	}
 }
