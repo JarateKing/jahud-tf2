@@ -210,6 +210,43 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"CloseCaption_Normal"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"18"
+				"Antialias" "1"
+			}
+		}
+		"CloseCaption_Italic"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"18"
+				"Antialias" "1"
+			}
+		}
+		"CloseCaption_Bold"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"18"
+				"Antialias" "1"
+			}
+		}
+		"CloseCaption_BoldItalic"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"18"
+				"Antialias" "1"
+			}
+		}
 	}
 	CustomFontFiles
 	{
