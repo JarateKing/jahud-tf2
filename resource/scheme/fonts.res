@@ -210,6 +210,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"jaMainMenuButtons"
+		{
+			"1"
+			{
+				"name" "Product Sans"
+				"tall" "20"
+				"antialias" "1"
+			}
+		}
 		
 		"CloseCaption_Normal"
 		{
