@@ -869,7 +869,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"Command"		"engine gamemenucommand quit"
+		"Command"		"engine quit"
 		
 		"font"			"jaMainMenuButtons"
 		"labelText"		"Quit"
