@@ -2,7 +2,7 @@
 {
 	"%keywords" "tf"
 	"$refractamount" "0.005"
-	"$refracttint" "{128 128 128}"
+	"$refracttint" "{255 255 255}"
 	"$refractblur" "1.0"
 	"$bluramount" "2"
 	
