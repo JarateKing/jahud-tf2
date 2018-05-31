@@ -883,4 +883,174 @@
 		"border_default"	"Null"
 		"border_armed"		"Null"
 	}
+	
+	// INGAME BUTTONS
+	"ButtonDisconnect"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ButtonDisconnect"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling" 	"ButtonQuit"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"280"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine disconnect"
+			
+			"font"			"jaMainMenuButtons"
+			"labelText"		"Disconnect"
+			"textAlignment"	"center"
+			
+			"defaultFgColor_override" "jaFG"
+			"armedFgColor_override" "jaFG2"
+			"depressedFgColor_override" "jaFG2"
+			
+			"paintbackground"	"0"
+			"border_default"	"Null"
+			"border_armed"		"Null"
+		}
+	}
+	"ButtonReconnect"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ButtonReconnect"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling" 	"ButtonDisconnect"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"280"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine retry"
+			
+			"font"			"jaMainMenuButtons"
+			"labelText"		"Reconnect"
+			"textAlignment"	"center"
+			
+			"defaultFgColor_override" "jaFG"
+			"armedFgColor_override" "jaFG2"
+			"depressedFgColor_override" "jaFG2"
+			
+			"paintbackground"	"0"
+			"border_default"	"Null"
+			"border_armed"		"Null"
+		}
+	}
+	"ButtonVote"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ButtonVote"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling" 	"ButtonAdv"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"280"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine echo what"
+			
+			"font"			"jaMainMenuButtons"
+			"labelText"		"Vote"
+			"textAlignment"	"center"
+			
+			"defaultFgColor_override" "jaFG"
+			"armedFgColor_override" "jaFG2"
+			"depressedFgColor_override" "jaFG2"
+			
+			"paintbackground"	"0"
+			"border_default"	"Null"
+			"border_armed"		"Null"
+		}
+	}
+	"ButtonMute"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ButtonMute"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"280"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling" 	"ButtonVote"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"280"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine echo what"
+			
+			"font"			"jaMainMenuButtons"
+			"labelText"		"Mute"
+			"textAlignment"	"center"
+			
+			"defaultFgColor_override" "jaFG"
+			"armedFgColor_override" "jaFG2"
+			"depressedFgColor_override" "jaFG2"
+			
+			"paintbackground"	"0"
+			"border_default"	"Null"
+			"border_armed"		"Null"
+		}
+	}
 }
