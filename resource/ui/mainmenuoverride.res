@@ -329,7 +329,7 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/blur/blur_top"
+			"image"			"replay/thumbnails/blur/blur_top_dark"
 			"scaleImage"	"1"
 		}
 		"mmBlurBg2"
@@ -343,7 +343,7 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/blur/blur_right"
+			"image"			"replay/thumbnails/blur/blur_right_dark"
 			"scaleImage"	"1"
 		}
 		"mmBlurBg3"
@@ -358,7 +358,7 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/blur/blur_bot"
+			"image"			"replay/thumbnails/blur/blur_bot_dark"
 			"scaleImage"	"1"
 		}
 		"mmBlurBg4"
@@ -373,7 +373,7 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/blur/blur_left"
+			"image"			"replay/thumbnails/blur/blur_left_dark"
 			"scaleImage"	"1"
 		}
 		"mmBlurBg5"
@@ -387,7 +387,7 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/blur/blur_center"
+			"image"			"replay/thumbnails/blur/blur_center_dark"
 			"scaleImage"	"1"
 		}
 	}
