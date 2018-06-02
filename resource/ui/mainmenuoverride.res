@@ -552,8 +552,8 @@
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"Command"		"engine gamemenucommand openserverbrowser"
 		
 		"font"			"jaMainMenuButtons"
@@ -577,8 +577,8 @@
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"Command"		"play_casual"
 		
 		"font"			"jaMainMenuButtons"
@@ -606,8 +606,8 @@
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"Command"		"play_competitive"
 		
 		"font"			"jaMainMenuButtons"
@@ -635,8 +635,8 @@
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"Command"		"play_mvm"
 		
 		"font"			"jaMainMenuButtons"
