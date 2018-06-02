@@ -15,3 +15,4 @@ Hud for TF2 designed to be easily updateable.
 * Clovervidia - captions
 * Rhapsody - github install script
 * Omni - engineer building status
+* Colly - white buildings / killfeed
