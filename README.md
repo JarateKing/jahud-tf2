@@ -2,6 +2,8 @@
 
 Hud for TF2 designed to be easily updateable.
 
+Entry for http://www.teamfortress.tv/47643
+
 ## Install
 
 1. Download zip
