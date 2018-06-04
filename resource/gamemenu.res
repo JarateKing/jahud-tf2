@@ -2,6 +2,7 @@
 
 "GameMenu"
 {
+	// background
 	"mmMovingBGPanel"
 	{
 		"label"			""
@@ -11,6 +12,7 @@
 		"tooltip" "#MMenu_CallVote"
 	}
 	
+	// background blur panel
 	"mmBlurBGPanel"
 	{
 		"label"			""
@@ -20,6 +22,7 @@
 		"tooltip" "#MMenu_CallVote"
 	}
 	
+	// header
 	"mmButtonPanel"
 	{
 		"label"			""
@@ -29,6 +32,7 @@
 		"tooltip" "#MMenu_CallVote"
 	}
 	
+	// header and blur panel
 	"mmButtonPanelIngame"
 	{
 		"label"			""
@@ -39,6 +43,8 @@
 	}
 	
 	// INGAME BUTTONS
+	// all other buttons exist in both ingame and in mainmenu, so they are not removed
+	
 	"ButtonDisconnect"
 	{
 		"label"			"Disconnect"
