@@ -542,6 +542,11 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
+	"StoreHasNewItemsImage"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
 	
 	"ButtonBrowse"
 	{
