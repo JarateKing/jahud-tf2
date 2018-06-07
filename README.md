@@ -2,6 +2,8 @@
 
 Hud for TF2 designed to be easily updateable.
 
+Current status: Ingame usable, WIP
+
 Entry for http://www.teamfortress.tv/47643
 
 ## Install
