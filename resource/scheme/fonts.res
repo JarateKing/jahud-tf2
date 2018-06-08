@@ -230,6 +230,25 @@ Scheme
 			}
 		}
 		
+		"jaMetalCount"
+		{
+			"1"
+			{
+				"name" "Product Sans"
+				"tall" "16"
+				"antialias" "1"
+			}
+		}
+		"jaMetalText"
+		{
+			"1"
+			{
+				"name" "Product Sans"
+				"tall" "16"
+				"antialias" "1"
+			}
+		}
+		
 		"CloseCaption_Normal"
 		{
 			"1"
