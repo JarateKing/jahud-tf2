@@ -41,13 +41,14 @@
 		"tall"			"29"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 160"
+		"fillcolor"		"jaBG"
+		"alpha"			"180"
 	}
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"fgcolor"		"245 245 245 255"
+		"fgcolor"		"jaFG"
 		"xpos"			"14"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -59,7 +60,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"MetalText"
+		"font"			"jaMetalCount"
 	}
 	"MetalImageNotIcon"
 	{

@@ -60,7 +60,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"jaMetalText"
+			"fgcolor"		"jaFG"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"

@@ -75,7 +75,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"TimepanelInfo"
+			"font"			"jaMetalText"
+			"fgcolor"		"jaFG"
 			"xpos"			"14"
 			"ypos"			"0"
 			"wide"			"117"
