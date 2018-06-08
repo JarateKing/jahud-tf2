@@ -14,17 +14,19 @@
 	}
 	"ItemEffectMeterCount"
 	{
-		"font"			"HudFontSmallBold"
+		"ypos"			"-2"
+		"font"			"jaChargeNumber"
 		"textalignment"		"center"
+		"fgcolor_override"		"jaFG"
 		"wide"			"140"
 		"tall"			"12"
 	}
 	"ItemEffectMeterCountShadow"
 	{
-		"font"			"HudFontSmallBold"
+		"font"			"jaChargeNumber"
 		"textalignment"		"center"
-		"wide"			"140"
-		"tall"			"12"
+		"wide"			"0"
+		"tall"			"0"
 	}
 	"ItemEffectMeterLabel"
 	{

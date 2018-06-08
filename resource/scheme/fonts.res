@@ -220,6 +220,16 @@ Scheme
 			}
 		}
 		
+		"jaChargeNumber"
+		{
+			"1"
+			{
+				"name" "jahud_num-10"
+				"tall" "12"
+				"antialias" "1"
+			}
+		}
+		
 		"CloseCaption_Normal"
 		{
 			"1"
